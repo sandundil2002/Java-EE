@@ -7,9 +7,20 @@
         <servlet-name>HelloServlet</servlet-name>
         <servlet-class>lk.ijse.HelloServlet</servlet-class>
     </servlet>
+
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>lk.ijse.MyServlet</servlet-class>
+    </servlet>
     
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/test</url-pattern>
     </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/my</url-pattern>
+    </servlet-mapping>
+
 </web-app>
